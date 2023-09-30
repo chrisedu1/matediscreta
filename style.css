@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.wrapper {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+   
+}
+
+
+.navbar {
+    background-image: url(fondo-pag.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .7em;
+    border: solid 2px;
+    position: fixed;
+    font-size: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    scroll-margin-top: 15ex;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+.brand {
+    color: #fff;
+    margin-top: -7px;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu .active {
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #191c32;
+    color: aquamarine;
+    transition: ease-in .3s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.1em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.logo {
+    width: 15vw;
+    padding-top: 60px;
+    padding-left: 60px;
+    border-radius: 60%;
+    border-color: aqua;
+    border: 40px; 
+}
+
+.text-img {
+    color: #fff;
+    font-size: 25px;
+    text-align:start;
+}
+
+.espacio {
+    width: 100vw;
+    height: 50vh;
+    background-color: #0a0a0a;
+}
+
+.portafolio {
+    Width: 100vw;
+    height: 280vh;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+
+.portafolio-headings {
+    width: 100vw;
+    padding: 5em;
+
+}
+
+.portafolio-headings h2 {
+    font-size: 2.5em;
+}
+
+.portafolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #7c0909;
+    margin: 10px;
+
+}
+
+.portafolio .container2 {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #7c0909;
+    margin: 10px;
+
+}
+
+.portafolio .container3 {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(card-img.avif);
+    margin: 10px;
+
+}
+
+.card-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.card_boton1 {
+    width: 70%;
+    height: 30px;
+    margin: 0 auto;
+    margin: 1em;
+    border: 40%;
+    border-color: #0a0a0a;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 15%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+button:hover {
+    background-color: white;
+    transition: ease-in .3s;
+}
+
+.card_boton1 a {
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(157, 52, 179);
+    text-transform: uppercase;
+    transition: ease-in .2s;
+}
+
